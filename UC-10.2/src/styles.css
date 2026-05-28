@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --cor-bg-dark: #0a0e27;
+  --cor-bg-darker: #050810;
+  --cor-text-light: #e0e0ff;
+  --cor-neon-cyan: #00f0ff;
+  --cor-neon-magenta: #ff00ff;
+  --cor-neon-purple: #9d4edd;
+  --cor-neon-green: #39ff14;
+  --cor-accent-blue: #0066ff;
+  --cor-border-dark: #1a1f3a;
+  --sombra-neon-cyan: 0 0 20px rgba(0, 240, 255, 0.5);
+  --sombra-neon-magenta: 0 0 20px rgba(255, 0, 255, 0.5);
+  --transicao-rapida: 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+html, body { height: 100%; }
+body { 
+  margin: 0; 
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, var(--cor-bg-darker) 0%, var(--cor-bg-dark) 100%);
+  color: var(--cor-text-light);
+  overflow-x: hidden;
+}

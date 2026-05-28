@@ -1,0 +1,14 @@
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\bin\Debug\net10.0\Atividade.exe
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\bin\Debug\net10.0\Atividade.deps.json
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\bin\Debug\net10.0\Atividade.runtimeconfig.json
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\bin\Debug\net10.0\Atividade.dll
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\bin\Debug\net10.0\Atividade.pdb
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\obj\Debug\net10.0\Atividade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\obj\Debug\net10.0\Atividade.AssemblyInfoInputs.cache
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\obj\Debug\net10.0\Atividade.AssemblyInfo.cs
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\obj\Debug\net10.0\Atividade.csproj.CoreCompileInputs.cache
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\obj\Debug\net10.0\Atividade.dll
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\obj\Debug\net10.0\refint\Atividade.dll
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\obj\Debug\net10.0\Atividade.pdb
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\obj\Debug\net10.0\Atividade.genruntimeconfig.cache
+C:\Workspace\Senai-FullStack\UC12\Senai_UC12\Atividade\obj\Debug\net10.0\ref\Atividade.dll

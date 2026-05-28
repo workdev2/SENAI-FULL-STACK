@@ -1,0 +1,11 @@
+footer{
+    background: linear-gradient(90deg, #050810 0%, #0a0e27 50%, #050810 100%);
+    color: var(--cor-text-light);
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+    border-top: 2px solid var(--cor-neon-magenta);
+    box-shadow: 0 -10px 30px rgba(255, 0, 255, 0.2);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}

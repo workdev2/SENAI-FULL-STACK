@@ -1,0 +1,89 @@
+{
+  "id": "c3288094-46ae-49a9-b23e-f3ce65cd9af4",
+  "version": "2.0",
+  "name": "editar",
+  "url": "http://192.168.1.168:8080",
+  "tests": [{
+    "id": "7b91d866-ef9e-4f01-8731-b86010d16eb5",
+    "name": "editar",
+    "commands": [{
+      "id": "725173ed-1eef-4041-a0f5-f6b08192ea0c",
+      "comment": "",
+      "command": "open",
+      "target": "http://192.168.1.168:8080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72f89264-b3f6-4ed0-ae1f-f6797ccdd6ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1114x984",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "feb0a9d0-ea95-4e19-a0e2-794d85f7456d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-primary > .mdc-button__label",
+      "targets": [
+        ["css=.mat-primary > .mdc-button__label", "css:finder"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Editar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e5c6ac7-fda2-481a-8a4f-31ba2a701fbc",
+      "comment": "",
+      "command": "click",
+      "target": "name=endereco",
+      "targets": [
+        ["name=endereco", "name"],
+        ["css=div:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='endereco']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b1640e8-52ef-469e-86e3-64f191ef5f02",
+      "comment": "",
+      "command": "type",
+      "target": "name=endereco",
+      "targets": [
+        ["name=endereco", "name"],
+        ["css=div > .ng-dirty", "css:finder"],
+        ["xpath=//input[@name='endereco']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Rua 2"
+    }, {
+      "id": "863c10c6-c801-4824-b07a-a2b7eb7fe3e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Atualizar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e5a208b-9c52-4a3a-bcdc-9ce1817b2d4d",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Erro ao atualizar",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "20b81990-1c7c-4c41-a62c-2b90d23c23a4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7b91d866-ef9e-4f01-8731-b86010d16eb5"]
+  }],
+  "urls": ["http://192.168.1.168:8080/"],
+  "plugins": []
+}

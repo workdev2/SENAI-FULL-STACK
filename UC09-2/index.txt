@@ -1,0 +1,9 @@
+<HTML>
+<HEAD>
+   <TITLE>ATIVIDADE SENAI </TITLE>
+</HEAD>
+<BODY>
+   <H1> CODIFICAÇÃO PARA FRONT-END </H1>
+   <P>Esta é a atividade referente ao módulo UC09-2.</P>
+</BODY>
+</HTML>

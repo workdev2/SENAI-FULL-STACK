@@ -1,0 +1,72 @@
+{
+  "id": "3c01dde1-6141-49b6-bf79-01f9196e98c4",
+  "version": "2.0",
+  "name": "excluir",
+  "url": "http://192.168.1.168:8080",
+  "tests": [{
+    "id": "7f9ca48b-e7f2-48b5-8563-cb6200d478a9",
+    "name": "excluir",
+    "commands": [{
+      "id": "0ea9d703-7c86-4c3d-b4cb-a12b768542bf",
+      "comment": "",
+      "command": "open",
+      "target": "http://192.168.1.168:8080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de2bc785-5f1d-45e6-8a5d-4e65e67ca72d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1311x984",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77f094aa-b45f-4e98-a5a8-5d58ce6b7551",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .mat-warn > .mdc-button__label",
+      "targets": [
+        ["css=tr:nth-child(5) .mat-warn > .mdc-button__label", "css:finder"],
+        ["xpath=//tr[5]/td[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d63dafc1-61f3-4a39-b8f6-df50d4dc53ec",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Erro ao Excluir",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f6935bd-c5d2-44f5-a4f4-7f9bab382920",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .mat-warn > .mdc-button__label",
+      "targets": [
+        ["css=tr:nth-child(5) .mat-warn > .mdc-button__label", "css:finder"],
+        ["xpath=//tr[5]/td[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7dc5e87-838d-4cb5-aa81-7ed146fcd883",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) .mat-warn > .mdc-button__label",
+      "targets": [
+        ["css=tr:nth-child(4) .mat-warn > .mdc-button__label", "css:finder"],
+        ["xpath=//tr[4]/td[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e44b72c2-8fa6-40d5-b2ae-9fe82d9d41ea",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7f9ca48b-e7f2-48b5-8563-cb6200d478a9"]
+  }],
+  "urls": ["http://192.168.1.168:8080/"],
+  "plugins": []
+}

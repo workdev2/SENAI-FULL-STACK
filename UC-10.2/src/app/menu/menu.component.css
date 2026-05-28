@@ -1,0 +1,66 @@
+:host {
+  background: linear-gradient(90deg, #0a0e27 0%, #1a1a3e 50%, #0a0e27 100%);
+  border-bottom: 2px solid var(--cor-neon-cyan);
+  box-shadow: 0 0 30px rgba(0, 240, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+span{
+    padding: 10px 15px;
+    color: var(--cor-text-light);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: var(--transicao-rapida);
+}
+
+span:hover {
+    color: var(--cor-neon-cyan);
+    text-shadow: 0 0 10px var(--cor-neon-cyan);
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.6));
+    transition: var(--transicao-rapida);
+}
+
+img:hover {
+    filter: drop-shadow(0 0 15px rgba(0, 240, 255, 0.9));
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-neon-cyan);
+    transition: var(--transicao-rapida);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--cor-neon-magenta);
+    transition: width var(--transicao-rapida);
+}
+
+a:hover {
+    color: var(--cor-neon-magenta);
+    text-shadow: var(--sombra-neon-magenta);
+}
+
+a:hover::after {
+    width: 100%;
+}

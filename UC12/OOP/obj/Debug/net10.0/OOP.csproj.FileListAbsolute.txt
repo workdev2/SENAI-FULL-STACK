@@ -1,0 +1,14 @@
+C:\Workspace\Senai-FullStack\UC12\OOP\bin\Debug\net10.0\OOP.exe
+C:\Workspace\Senai-FullStack\UC12\OOP\bin\Debug\net10.0\OOP.deps.json
+C:\Workspace\Senai-FullStack\UC12\OOP\bin\Debug\net10.0\OOP.runtimeconfig.json
+C:\Workspace\Senai-FullStack\UC12\OOP\bin\Debug\net10.0\OOP.dll
+C:\Workspace\Senai-FullStack\UC12\OOP\bin\Debug\net10.0\OOP.pdb
+C:\Workspace\Senai-FullStack\UC12\OOP\obj\Debug\net10.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Senai-FullStack\UC12\OOP\obj\Debug\net10.0\OOP.AssemblyInfoInputs.cache
+C:\Workspace\Senai-FullStack\UC12\OOP\obj\Debug\net10.0\OOP.AssemblyInfo.cs
+C:\Workspace\Senai-FullStack\UC12\OOP\obj\Debug\net10.0\OOP.csproj.CoreCompileInputs.cache
+C:\Workspace\Senai-FullStack\UC12\OOP\obj\Debug\net10.0\OOP.dll
+C:\Workspace\Senai-FullStack\UC12\OOP\obj\Debug\net10.0\refint\OOP.dll
+C:\Workspace\Senai-FullStack\UC12\OOP\obj\Debug\net10.0\OOP.pdb
+C:\Workspace\Senai-FullStack\UC12\OOP\obj\Debug\net10.0\OOP.genruntimeconfig.cache
+C:\Workspace\Senai-FullStack\UC12\OOP\obj\Debug\net10.0\ref\OOP.dll

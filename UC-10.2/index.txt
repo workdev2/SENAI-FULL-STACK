@@ -1,0 +1,9 @@
+<HTML>
+<HEAD>
+   <TITLE>ATIVIDADE SENAI </TITLE>
+</HEAD>
+<BODY>
+   <H1> FRAMEWORK FRONT-END COM CONSUMO DE API </H1>
+   <P>Esta é a atividade referente ao módulo UC10-2.</P>
+</BODY>
+</HTML>

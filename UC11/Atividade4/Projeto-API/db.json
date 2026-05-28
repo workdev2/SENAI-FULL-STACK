@@ -1,0 +1,10 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "nome": "Felipe Santos",
+      "endereco": "Rua X"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
